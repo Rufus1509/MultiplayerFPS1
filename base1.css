@@ -1,0 +1,145 @@
+
+
+
+body{
+background-color: #222;
+
+}
+
+.center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 230px;
+   height: 230px;
+   margin-top: -100px; 
+   margin-left: -115px; 
+
+}
+
+.margin
+{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #fff;
+    text-align: center;
+    
+     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.title
+{
+    color: #000000  ;
+    padding: 20px;
+    background-color: #4040a1;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: #fff;
+     font-family: "Arial Black", Gadget, sans-serif
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+
+}
+
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 15px;
+}
+
+nav a
+{
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover{
+  color:  #FF0000;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.webgl-content{
+  margin-top: 100px;
+}
+
+h2{
+    padding: 40px;
+}
+
+h3{
+    padding: 30px;
+}
+
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   height:600px;
+    width:1503px;
+}
+
+
+.button2 {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   height:600px;
+    width:1503px;
+}
+
+.button3 {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   height:600px;
+    width:1503px;
+}
+.button1:hover {
+  background-color: #e7e7e7; 
+  color: white;
+}
+.button2:hover {
+  background-color: #e7e7e7; 
+  color: white;
+}
+.button3:hover {
+  background-color: #e7e7e7; 
+  color: white;
+}

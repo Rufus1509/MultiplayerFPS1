@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | shapes</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webdrink.json", {onProgress: UnityProgress});
+    </script>
+    <script type="text/javascript">
+  function newpage3()
+  {
+    window.location.href = "about.html";
+  }
+  function newpage2()
+  {
+    window.location.href = "soon.html";
+  }
+  function newpage1()
+  {
+    window.location.href = "regform.html";
+  }
+  function newpage4()
+  {
+    window.location.href = "core.html";
+  }
+
+ </script>
+ <link rel="stylesheet" type="text/css" href="base1.css">
+<style type="text/css"></style>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">shapes</div>
+      </div>
+    </div>
+    
+
+<button class="button button1" onclick="newpage3()">How it Works</button>
+<button class="button button4" onclick="newpage2()">Progress</button>
+<button class="button button3" onclick="newpage1()">More Games</button>
+<button class="button button2" onclick="newpage4()">Register</button>
+  </body>
+</html>
